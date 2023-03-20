@@ -1,0 +1,28 @@
+.buttonCalc {
+    border-radius: 30px;
+    background-color: #4d4b4b50;
+    color: cadetblue;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    width: 55px;
+    margin: 3px;
+    font-size: 1em;
+}
+
+.buttonCalc:active {
+    border-radius: 15px;
+    background-color: #4d4b4b80;
+}
+
+.buttonCalc.operador {
+    background-color: rgb(63, 63, 201);
+}
+
+.buttonCalc.AC {
+    background-color: rgb(2, 92, 2);
+}
+
+.buttonCalc.igualdade {
+    background-color: rgb(49, 49, 223);
+}
